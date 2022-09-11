@@ -7,12 +7,7 @@ const data ={
             password:bcrypt.hashSync('letmein',8),
             isAdmin: true,
         },
-        {
-            name:'Lanoi',
-            email:'lanoitikani@gmail.com',
-            password:bcrypt.hashSync('letmein',8),
-            isAdmin: false,
-        },
+       
 
 
     ],
